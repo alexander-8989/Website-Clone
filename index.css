@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800&family=Water+Brush&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.container-1 {
+    background-image: url("/Images/bghome.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-half {
+    display: flex;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.logo {
+    width: 20%;
+    margin: 24px 20px 20px 2px;
+}
+
+.menu {
+    display: flex;
+    font-size: 16px;
+    margin-top: 32px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu>a {
+    margin-left: 5px;
+}
+
+.menu p {
+    padding-left: 20px;
+}
+
+.second-half {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.login-button {
+    height: 40px;
+    line-height: 40px;
+    border-radius: 100px;
+    border: solid 1px #fff;
+    color: #fff;
+    background: transparent;
+    margin: 0 10px 0 10px;
+    padding: 0 20px;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.globeLang {
+    margin-left: 5px;
+    margin-top: 12px;
+}
+
+.text-content {
+    margin-top: 7%;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 1.3px;
+}
+
+.line1 {
+    font-weight: 100;
+    font-size: 55px;
+}
+
+.line2 {
+    font-weight: 400;
+    font-size: 55px;
+    margin-left: 15px;
+}
+
+.line3 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 40px;
+    letter-spacing: 1.3px;
+}
+
+.line4 {
+    width: 200px !important;
+    border-radius: 100px;
+    border: solid 1px #fff;
+    background-image: linear-gradient(to right, #a51300, #bb1600);
+    box-shadow: 2px 2px 7px 2px rgb(0 0 0 / 29%);
+    font-size: 14px;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 14px;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+
+.title{
+    color: #444444;
+    padding: 100px 100px 70px;
+    font-size: 25px;
+    letter-spacing: 1.3px;
+    text-align: center;
+}
+
+.underline{
+    border: 2px solid #bb1600;
+    background-color: #bb1600;
+    width: 80px;
+    height: 3px;
+    margin-left: 47%;
+    margin-top: 10px;
+}
+
+.theme-para{
+    color: #383838;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.4;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.container-3{  
+    margin-top: 6%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
