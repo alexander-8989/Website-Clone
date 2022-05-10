@@ -345,7 +345,7 @@ h1 {
     text-align: center;
 }
 
-.button {
+.button{
     display: flex;
     justify-content: center;
 }
@@ -364,29 +364,26 @@ h1 {
 }
 
 /* Container-7 */
-footer {
-    background-color: #333;
+footer{
+    width: 100%;
+    padding: 40px;
+    background-color: rgb(51,51,51);
 }
 
-.half-container {
-    max-width: 1200px;
-    margin: 0px auto;
-}
-
-.container-7 {
-    padding-top: 40px;
-    padding-bottom: 20px;
-    color: white;
+.container-7{ 
+    width: 70%;
+    background-color: rgb(51,51,51);
+    color: #fff;
     display: flex;
 }
 
-.headings {
+.footer-head{
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 1.5px;
 }
 
-.heading-underline {
+.footer-underline {
     border: 2px solid #bb1600;
     background-color: #bb1600;
     width: 80px;
@@ -394,29 +391,33 @@ footer {
     margin-top: 10px;
 }
 
-.part-1-para {
+.footer-para{
     font-size: 15px;
     font-weight: 300;
-    line-height: 1.7;
-    padding: 40px 75px 30px 0px;
-}
-
-.icon {
-    padding-left: 15px
-}
-
-.part-2-para {
+    line-height: 1.5;
     padding-top: 35px;
+}
+
+.footer-list{
     font-size: 15px;
     font-weight: 300;
     line-height: 2.5;
-
+    padding-top: 35px;
 }
 
-.container-7-part-1 {
-    width: 30%;
+.footer-part-1{
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 100px;
 }
 
-.container-7-part-2 {
+.footer-icon{
+    padding-top: 30px;
+}
+
+.footer-part-2{
     display: flex;
+    padding-top: 30px;
+
 }
+
