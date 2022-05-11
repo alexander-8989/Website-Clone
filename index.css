@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800&family=Water+Brush&display=swap');
 
+/***************************************** Home Page CSS ************************************************/
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -280,7 +282,7 @@ h1 {
 /* Container-6 */
 .container-6 {
     margin-top: 20px;
-    padding-bottom: 150px;
+    padding-bottom: 135px;
     background-color: rgb(246, 247, 249);
 }
 
@@ -369,7 +371,7 @@ footer {
 }
 
 .half-container {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0px auto;
 }
 
@@ -397,8 +399,8 @@ footer {
 .part-1-para {
     font-size: 15px;
     font-weight: 300;
-    line-height: 1.7;
-    padding: 40px 75px 30px 0px;
+    line-height: 1.5;
+    padding: 40px 90px 30px 0px;
 }
 
 .icon {
@@ -406,17 +408,131 @@ footer {
 }
 
 .part-2-para {
-    padding-top: 35px;
     font-size: 15px;
     font-weight: 300;
     line-height: 2.5;
+    padding-top: 35px;
 
 }
 
 .container-7-part-1 {
-    width: 30%;
+    width: 50%;
 }
 
 .container-7-part-2 {
     display: flex;
+    width: 100%;
+}
+
+.product {
+    width: 35%;
+}
+
+.company {
+    width: 35%;
+}
+
+
+/***************************************** Customer Service Page CSS ***************************************/
+
+.cust-container-1 {
+    background-image: url(/Images/customer-service.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imp1 {
+    font-weight: 300;
+    font-size: 55px;
+}
+
+.imp2 {
+    font-weight: 500;
+    font-size: 55px;
+    margin-left: 15px;
+}
+
+
+/******************************************** Feature Page CSS*******************************************/
+
+/* feat-container-1 */
+.feat-container-1 {
+    background-image: url(/Images/featurePageBg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head {
+    font-weight: 500;
+    font-size: 55px;
+}
+
+/* feat-container-2 */
+.feat-container-2 {
+    margin-top: 5%;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.title1 {
+    color: #444444;
+    font-size: 33px;
+    letter-spacing: 1.3px;
+    font-weight: 100;
+}
+
+.title2 {
+    color: #444444;
+    padding-left: 5px;
+    font-size: 33px;
+    letter-spacing: 1.3px;
+}
+
+.feat-para {
+    color: #383838;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.4;
+    margin-top: 35px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* feat-container-3 */
+.feat-container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 60px 80px 100px;
+}
+
+.feat-box {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 30px 60px 50px 60px;
+}
+
+.box-heading {
+    font-size: 15px;
+    font-weight: bold;
+    color: #444444;
+    line-height: 1.7;
+    text-align: center;
+    letter-spacing: 1.5px;
 }
