@@ -17,6 +17,22 @@
     position: fixed;
 }
 
+.scroll_nav {
+    background-color: white;
+}
+
+.scroll_nav a {
+    color: #444444;
+}
+
+.scroll_nav .login-button {
+    border: 1px solid #444444;
+}
+
+.scroll_nav .globe img {
+    filter: invert(100%);
+}
+
 /* Conatiner-1 */
 .container-1 {
     background-image: url("/Images/bghome.jpg");
@@ -435,6 +451,7 @@ footer {
 
 /***************************************** Customer Service Page CSS ***************************************/
 
+/* Customer container-1 */
 .cust-container-1 {
     background-image: url(/Images/customer-service.jpg);
     background-size: cover;
@@ -458,8 +475,33 @@ footer {
     margin-left: 15px;
 }
 
+.cust-container-2 {
+    margin-top: 30px;
+}
 
-/******************************************** Feature Page CSS*******************************************/
+.tabs {
+    display: flex;
+}
+
+.tab {
+    height: 54px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 16px;
+    align-items: center;
+    margin: 0px 10px 0px;
+    background-color: #bb1600;
+    color: white;
+    cursor: pointer;
+}
+
+.max-container {
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+/******************************************** Feature Page CSS**********************************************/
 
 /* feat-container-1 */
 .feat-container-1 {
