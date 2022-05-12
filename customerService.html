@@ -59,98 +59,228 @@
                 </h1>
             </div>
         </div>
-        <!-- Div for FAQ Content -->
+        <!-- Div for FAQ title -->
         <div class="cust-container-2">
             <div class="title">
                 <h2>FAQ</h2>
                 <p class="underline"></p>
             </div>
         </div>
-        <!-- Div for tab button -->
-        <div class="tabs">
-            <div class="tab" style="margin-left: 120px;">SimpleSite subscriptions and Payment</div>
-            <div class="tab">General use of SimpleSite</div>
-        </div>
-        <div class="max-container">
+        <!-- Div for FAQ Content -->
+        <div class="cust-con-3">
             <div class="cust-container-3">
-                <!-- Div for FAQ Questions Answer -->
-                <div class="faq-question-box">
-                    <div class="faq-1">
-                        <div class="ques" id="ques-1-1">
-                            <h3>How can I get my own domain name?</h3>
-                            <p>At SimpleSite it's easy to get your own domain name for your website. When you purchase a
-                                subscription you can choose your own domain name, e.g., www.yourname.com instead of
-                                yourname.SimpleSite.com. In addition, you can register up to five custom email
-                                addresses,
-                                for example info@yourname.com. <br>
-                                To upgrade and get your own domain name please click on the link below. <br>
-                                <a href="" style="color: black;">Get own domain</a>
-                            </p>
-                        </div>
-                        <div class="ques" id="ques-1-2">
-                            <h3>I have received a SimpleSite gift certificate. How do I redeem it?</h3>
-                            <p>If you have received a SimpleSite gift certificate and want to use it to make a
-                                SimpleSite
-                                PRO website, click this link to follow the instructions: <br>
-                                <a href="" style="color: black;">Click here to redeem your SimpleSite gift
-                                    certificate.</a>
-                            </p>
-                        </div>
-                        <div class="ques" id="ques-1-3">
-                            <h3>Can I renew a current subscription with a gift certificate?</h3>
-                            <p>Yes, but only if the SimpleSite gift certificate you received has that option listed. If
-                                it
-                                does, you can <a href="" style="color: black;">redeem it here</a></p>
-                        </div>
-                        <div class="ques" id="ques-1-4">
-                            <h3>What do I need to start my business?​</h3>
-                            <p>Opening a business can be intimidating, especially when you don’t have any prior
-                                experience.
-                                We’ve got you covered – check our ready-made guides for getting started in different
-                                niches,
-                                whether you want to find out how to open a Bed & Breakfast, how to start a pizzeria, or
-                                open
-                                your own massage center.​</p>
-                        </div>
-                        <div class="ques" id="ques-1-5">
-                            <h3>How can I pay for or renew my subscription?</h3>
-                            <p><a href="" style="color: black;">Click here to go to the SimpleSite subscription renewal
-                                    page.</a></p>
+                <!-- Div for faq Tab Button -->
+                <div class="faq_tab">
+                    <button class="faq_butt active" onclick="myFaq(event, 'cont-1')">SimpleSite subscriptions and
+                        Payment</button>
+                    <button class="faq_butt" onclick="myFaq(event, 'cont-2')" style="margin-left: 15px;">General use of
+                        SimpleSite</button>
+                </div>
+                <!-- Div for faq section -->
+                <div class="FAQ">
+                    <!-- Faq for tab button 1 -->
+                    <div class="faq_section" id="cont-1">
+                        <div class="faq-section-box">
+                            <details class="accordion">
+                                <summary> I have received a SimpleSite gift certificate. How do I redeem it?</summary>
+                                <br>
+                                <p>If you have received a SimpleSite gift certificate and want to use it to make a
+                                    SimpleSite
+                                    PRO website, click this link to follow the instructions:</p>
+                                <p>Click here to redeem your SimpleSite gift certificate.</p>
+                            </details>
+                            <hr>
+                            <details class="accordion">
+                                <summary> How many days do I have left before my subscription expires?</summary><br>
+                                <p>To check the status of your subscirption, log in to your website's editor and visit
+                                    the subscription section. If your automatic payment service is disabled, we
+                                    recommend you renew your subscription at least 24 hrs before it expires.</p>
+                            </details>
+                            <hr>
+                            <details class="accordion">
+                                <summary>Can I renew a current subscription with a gift certificate?
+                                </summary><br>
+                                <p>Yes, but only if the SimpleSite gift certificate you received has that option listed.
+                                    If it does, you can redeem it here</p>
+                            </details>
+                            <hr>
+                            <details class="accordion">
+                                <summary>How can I pay for or renew my subscription?
+                                </summary><br>
+                                <p>Click here to go to the SimpleSite subscription renewal page.</p>
+                            </details>
+                            <hr>
+                            <details class="accordion">
+                                <summary>What do I need to start my business?​
+                                </summary><br>
+                                <p>Opening a business can be intimidating, especially when you don't have any prior
+                                    experience. We've got you covered – check our ready-made guides for getting started
+                                    in different niches, whether you want to find out how to open a Bed & Breakfast, how
+                                    to start a pizzeria, or open your own massage center.​</p>
+                            </details>
+                            <hr>
                         </div>
                     </div>
-                    <div class="faq-2">
-                        <div class="ques" id="ques-2-1">
-                            <h3>Can I change the size of my images?</h3>
-                            <p>No, the size of your images is automatically set by the webpage template you chose.</p>
-                        </div>
-                        <div class="ques" id="ques-2-2">
-                            <h3>Can anyone see my SimpleSite?</h3>
-                            <p>Yes. Please note there is NO password protection option for your website. This means that
-                                everyone who knows the URL of your website can visit it. We recommend you always
-                                consider carefully what you publish on your website. Avoid publishing anything online
-                                that is confidential, offensive or unsuitable for public viewing. Search engines such as
-                                Google and Bing will also be able to index your website.</p>
-                        </div>
-                        <div class="ques" id="ques-2-3">
-                            <h3>Does SimpleSite save my images?</h3>
-                            <p>Yes, but we save them in a different size and format than the images you have on your
-                                computer of device. We make images smaller to reduce page load times. This means that
-                                SimpleSite is not a backup for your images or somewhere that you can store images.
-                                SimpleSite is a place where you can show your images, but remember to have a backup of
-                                your content before uploading anything.</p>
-                        </div>
-                        <div class="ques" id="ques-2-4">
-                            <h3>Will there be advertising on my website?</h3>
-                            <p>There are no ads, pop-up boxes or sponsorships from third parties on your website.</p>
-                        </div>
-                        <div class="ques" id="ques-2-5">
-                            <h3>If I buy more than one SimpleSite website, will I get a discount?</h3>
-                            <p>We do not offer discounts on multiple purchases.</p>
+                    <!-- Faq for tab button 2 -->
+                    <div class="faq_section" id="cont-2" style="display: none;">
+                        <div class="faq-section-box">
+                            <details class="accordion">
+                                <summary>Can I use my SimpleSite website for commercial purposes?</summary>
+                                <br>
+                                <p>You can use your SimpleSite for commercial purposes, as long as the content of your
+                                    pages complies with our general Terms & Conditions. You can make use of our
+                                    E-commerce subscription to sell products and services on your website. Please note
+                                    we do not permit website owners to resell their website or domain names to others.
+                                </p>
+                            </details>
+                            <hr>
+                            <details class="accordion">
+                                <summary>Can I make my own templates for my SimpleSite website?</summary>
+                                <br>
+                                <p>No, at present this is not possible. You can only use the templates available on
+                                    SimpleSite.com. However, we may offer this feature sometime in the future.</p>
+                            </details>
+                            <hr>
+                            <details class="accordion">
+                                <summary>Can I change the size of my images?</summary>
+                                <br>
+                                <p>No, the size of your images is automatically set by the webpage template you chose.
+                                </p>
+                            </details>
+                            <hr>
+                            <details class="accordion">
+                                <summary>Will there be advertising on my website?</summary>
+                                <br>
+                                <p>There are no ads, pop-up boxes or sponsorships from third parties on your website.
+                                </p>
+                            </details>
+                            <hr>
+                            <details class="accordion">
+                                <summary>If I buy more than one SimpleSite website, will I get a discount?</summary>
+                                <br>
+                                <p>We do not offer discounts on multiple purchases.</p>
+                            </details>
+                            <hr>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Customer Service details -->
+        <div class="cust-container-4">
+            <div class="title service-title">
+                <h2>
+                    CUSTOMER SERVICE
+                </h2>
+                <p class="underline"></p>
+            </div>
+            <div class="email">
+                <p>
+                    <span class="email1">Email:</span>
+                    <span class="email2">customerservice@simplesite.com</span>
+                </p>
+            </div>
+            <div class="cust-para">
+                <p>We try to respond to all requests within two business days.</p>
+                <p>Please describe your issue and include the name of your website to make it easier for us to help you.
+                </p>
+            </div>
+            <p class="service-address">
+                <strong>SimpleSite.com</strong><br>
+                <span>Toldbodgade 31, 3.tv</span><br>
+                <span>1253 Copenhagen K.</span><br>
+                <span>Denmark</span><br>
+                <span>VAT Reg No: DK27 97 24 54</span><br>
+                <span>Owned by SimpleSite ApS VAT Reg No DK10079861</span>
+            </p>
+        </div>
+        <!-- Markup for Footer of Page -->
+        <footer>
+            <div class="half-container">
+                <div class="container-7">
+                    <div class="container-7-part-1">
+                        <div class="headings">
+                            <h2>SIMPLESITE</h2>
+                            <p class="heading-underline"></p>
+                        </div>
+                        <div class="part-1-para">
+                            <p>Our user experience ideals run through every vein of our company. Our ideals are not to
+                                attain perfection, but rather to attain pleasure. Using our product should feel
+                                enjoyable - like playing a game - it should be easy, exciting and uplifting. Something
+                                to try and subsequently to learn from. This is the same experience our employees have
+                                working for us.</p>
+                        </div>
+                        <div class="social-icons">
+                            <span><a href="https://www.facebook.com/appwrk/"><img src="/Images/fb.png"
+                                        alt=""></a></span>
+                            <span class="icon"><a href="https://www.youtube.com/channel/UCB89lOpi_SwDBuLQZdrTpLQ"><img
+                                        src="/Images/youtube.png" alt=""></a></span>
+                            <span class="icon"><a
+                                    href="https://twitter.com/appwrk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+                                        src="/Images/twitter.png" alt=""></a></span>
+                            <span class="icon"><a href="https://in.linkedin.com/company/appwrk"><img
+                                        src="/Images/linkedin.png" alt=""></a></span>
+                        </div>
+                    </div>
+                    <div class="container-7-part-2">
+                        <!-- Product -->
+                        <div class="product">
+                            <div class="headings">
+                                <h2>PRODUCT</h2>
+                                <p class="heading-underline"></p>
+                            </div>
+                            <div class="part-2-para">
+                                <a href="/features.html">
+                                    <p>Features</p>
+                                </a>
+                                <a href="">
+                                    <p>Themes</p>
+                                </a>
+                                <a href="">
+                                    <p>Gift Certificate</p>
+                                </a>
+                                <a href="">
+                                    <p>Pricing</p>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Company -->
+                        <div class="company">
+                            <div class="headings">
+                                <h2>COMPANY</h2>
+                                <p class="heading-underline"></p>
+                            </div>
+                            <div class="part-2-para">
+                                <a href="">
+                                    <p>Terms of use</p>
+                                </a>
+                                <a href="">
+                                    <p>Privacy Policy</p>
+                                </a>
+                                <a href="">
+                                    <p>Cookie Policy</p>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Community -->
+                        <div class="community">
+                            <div class="headings">
+                                <h2>COMMUNITY</h2>
+                                <p class="heading-underline"></p>
+                            </div>
+                            <div class="part-2-para">
+                                <a href="/customerService.html">
+                                    <p>Customer service</p>
+                                </a>
+                                <a href="">
+                                    <p>FAQ</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 
