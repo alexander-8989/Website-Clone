@@ -62,6 +62,7 @@
     display: flex;
     font-size: 16px;
     margin-top: 32px;
+    list-style: none;
 }
 
 a {
@@ -73,7 +74,7 @@ a {
     margin-left: 5px;
 }
 
-.menu p {
+.menu a {
     padding-left: 20px;
 }
 
@@ -83,6 +84,10 @@ a {
     justify-content: right;
     margin-right: 30px;
     margin-top: 30px;
+}
+
+.hamburger {
+    display: none;
 }
 
 .login-button {
@@ -179,7 +184,7 @@ h1 {
 }
 
 /* Container-2 */
-.container-2{
+.container-2 {
     width: 100%;
 }
 
@@ -337,7 +342,7 @@ h1 {
 }
 
 .mobOpti {
-    width: 25%;  
+    width: 25%;
     /* margin-left: 100px; */
 }
 
@@ -403,7 +408,7 @@ footer {
 }
 
 .half-container {
-    max-width: 75%; 
+    max-width: 75%;
     margin: 0px auto;
 }
 
@@ -465,7 +470,7 @@ footer {
     width: 33%;
 }
 
-.community{
+.community {
     width: 34%;
 }
 
@@ -713,6 +718,7 @@ footer {
     .container-4-part-1 {
         width: 100%;
     }
+
     .container-4-part-1 img {
         width: 100%;
     }
@@ -760,7 +766,7 @@ footer {
         margin: 70px auto;
     }
 
-    .container-6{
+    .container-6 {
         padding-bottom: 100px;
     }
 
@@ -803,24 +809,29 @@ footer {
         padding: 0px 60px;
     }
 
-    .container-7{
+    .container-7 {
         flex-wrap: wrap;
     }
+
     .container-7-part-1 {
         flex-wrap: wrap;
         width: 100%;
     }
-    .container-7-part-2{
+
+    .container-7-part-2 {
         flex-wrap: wrap;
         margin-top: 30px;
     }
-    .product{
+
+    .product {
         width: 100%;
     }
-    .company{
+
+    .company {
         width: 100%;
     }
-    .community{
+
+    .community {
         width: 100%;
     }
 
@@ -846,20 +857,24 @@ footer {
 
     /* Features page */
     .half-container {
-        width: 90%;    
+        width: 90%;
     }
+
     .feat-para {
         margin: 0px auto;
         margin: 35px 10% 0px;
     }
+
     .feat-container-3 {
         flex-wrap: wrap;
         padding: 0px;
     }
+
     .feat-box {
         width: 50%;
         padding: 35px 20px;
     }
+
     .feat-box .paragraph {
         padding: 0px 35px;
     }
@@ -869,6 +884,18 @@ footer {
 
 /* Media queries till 1200px */
 @media screen and (max-width : 1200px) {
+
+    .login-button {
+        display: none;
+    }
+
+    .globe {
+        display: none;
+    }
+
+    .globeLang {
+        display: none;
+    }
 
     .container-1 {
         flex-wrap: wrap;
@@ -902,6 +929,7 @@ footer {
     .container-4-part-1 {
         width: 100%;
     }
+
     .container-4-part-1 img {
         width: 100%;
     }
@@ -949,7 +977,7 @@ footer {
         margin: 70px auto;
     }
 
-    .container-6{
+    .container-6 {
         padding-bottom: 100px;
     }
 
@@ -992,24 +1020,29 @@ footer {
         padding: 0px 60px;
     }
 
-    .container-7{
+    .container-7 {
         flex-wrap: wrap;
     }
+
     .container-7-part-1 {
         flex-wrap: wrap;
         width: 100%;
     }
-    .container-7-part-2{
+
+    .container-7-part-2 {
         flex-wrap: wrap;
         margin-top: 30px;
     }
-    .product{
+
+    .product {
         width: 100%;
     }
-    .company{
+
+    .company {
         width: 100%;
     }
-    .community{
+
+    .community {
         width: 100%;
     }
 
@@ -1034,20 +1067,24 @@ footer {
 
     /* Features page */
     .half-container {
-        width: 90%;    
+        width: 90%;
     }
+
     .feat-para {
         margin: 0px auto;
         margin: 35px 10% 0px;
     }
+
     .feat-container-3 {
         flex-wrap: wrap;
         padding: 0px;
     }
+
     .feat-box {
         width: 50%;
         padding: 35px 20px;
     }
+
     .feat-box .paragraph {
         padding: 0px 35px;
     }
@@ -1055,6 +1092,79 @@ footer {
 
 
 
+/* Hamburger */
+.hamburger ul {
+    float: right;
+    padding-left: 20px;
+}
 
+.hamburger ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
 
+.hamburger ul li a {
+    color: #444444;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
 
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    top: 0;
+    right: 0;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .second-half {
+        margin-top: 5px;
+    }
+
+    .checkbtn,
+    .hamburger {
+        display: block;
+        margin: 0px;
+    }
+
+    ul {
+        position: fixed;
+        width: 25%;
+        height: 100vh;
+        background: white;
+        right: -100%;
+        top: 80px;
+        text-align: start;
+        transition: all .5s;
+    }
+
+    .hamburger ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .hamburger ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+    }
+
+    #check:checked~ul {
+        right: 0;
+    }
+}

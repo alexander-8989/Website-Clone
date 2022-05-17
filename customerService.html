@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="/Images/favicon.png" type="icon">
     <!-- External CSS -->
     <link rel="stylesheet" href="/index.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="/index.js"></script>
     <!-- External CSS -->
 </head>
@@ -23,22 +24,28 @@
                 <div class="logo">
                     <a href="index.html"><img src="/Images/logo.png" alt="SimpleSite"></a>
                 </div>
-                <div class="menu">
-                    <a href="">
-                        <p>Try it for free</p>
-                    </a>
-                    <a href="">
-                        <p>Customer Service</p>
-                    </a>
-                    <a href="/features.html">
-                        <p>Features</p>
-                    </a>
-                    <a href="">
-                        <p>Themes</p>
-                    </a>
+                <div class="menu-bar">
+                    <ul class="menu">
+                        <a class="menuItem" href="#">Try it for free</a>
+                        <a class="menuItem" href="/customerService.html">Customer Service</a>
+                        <a class="menuItem" href="/features.html">Features</a>
+                        <a class="menuItem" href="#">Themes</a>
+                    </ul>
                 </div>
             </div>
             <div class="second-half">
+                <div class="hamburger">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <ul>
+                        <li><a class="active" href="#">Try it for free</a></li>
+                        <li><a href="/customerService.html">Customer Service</a></li>
+                        <li><a href="/features.html">Features</a></li>
+                        <li><a href="#">Themes</a></li>
+                    </ul>
+                </div>
                 <div class="login-button">
                     <a href="">Log in</a>
                 </div>
